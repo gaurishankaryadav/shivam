@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- <div>
+        <h1>Direct Child 1</h1>
+        <h1>Direct Child 2</h1>
+        <section>
+            <p>indirect Child 1</p>
+            <p>indirect Child 2</p>
+            <p>indirect Child 3</p>
+        </section>
+    </div>
+
+    <style>
+        div h1{
+            color: red;
+        }
+
+        div section p{
+            color: green;
+        }
+    </style> -->
+
+
+    <!-- <div>
+        <h1>Direct Child 1</h1>
+        <h1>Direct Child 2</h1>
+        <section>
+            <p>indirect Child 1</p>
+            <h1>indirect Child 2</h1>
+            <h1>indirect Child 3</h1>
+        </section>
+    </div>
+
+    <style>
+        div>section>h1{
+            color: red;
+        }
+    </style> -->
+
+
+
+    
+    <!-- <section>
+        <h1>indirect Child 1</h1>
+        <h1>indirect Child 2</h1>
+        <h2>indirect Child 3</h2>
+        <h3>indirect Child 4</h3>
+        <h3>indirect Child 5</h3>
+        <h1>indirect Child 6</h1>
+    </section>
+    </div>
+
+    <style>
+        section h2 + h3{
+            color: red;
+        }
+    </style> -->
+
+
+
+    <section>
+        <h1>indirect Child 1</h1>
+        <h1>indirect Child 2</h1>
+        <h3>indirect Child 4</h3>
+        <h2>indirect Child 3</h2>  <!-- Taget-->
+        <h3>indirect Child 4</h3>
+        <h1>indirect Child 5</h1>
+        <h3>indirect Child 6</h3>
+        <h1>indirect Child 7</h1>
+        <h3>indirect Child 8</h3>
+        <h1>indirect Child 9</h1>
+        <h3>indirect Child 10</h3>
+        <h1>indirect Child 11</h1>
+    </section>
+    </div>
+
+    <style>
+        section h2 ~h3{
+            color: red;
+        }
+    </style>
+</body>
+</html>
