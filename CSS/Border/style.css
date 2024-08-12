@@ -1,0 +1,51 @@
+
+
+
+div{
+    height: 600px;
+    width: 600px;
+
+
+    /* Top  */
+    /* border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color:greenyellow ; */
+    border-top: 10px solid greenyellow;
+   
+   
+
+    /* Right */
+    /* border-right-width: 20px;
+    border-right-style: double;
+    border-right-color:greenyellow ; */
+    border-right: 15px solid hotpink;
+    
+    /* Bottom */
+    /* border-bottom-width: 20px;
+    border-bottom-style: double;
+    border-bottom-color: rebeccapurple; */
+    border-bottom: 15px solid aqua;
+
+    /* Left */
+    /* border-left-width: 30px;
+    border-left-style: double;
+    border-left-color: hotpink; */
+    border-left: 10px solid red;
+
+
+    /* border-top-left-radius: ; */
+/* border-top-left-radius: 40px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px; */
+
+
+border-radius: 50px 40px 30px 20px;
+border-radius: 50px 40px 30px;
+border-radius: 50px 40px;
+border-radius: 50px;
+
+
+border: 10px solid black 50px 45px 20px 30px ;
+
+}
