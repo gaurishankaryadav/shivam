@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+
+/* Color */
+
+.color {
+    color: chartreuse;
+    color: chocolate;
+
+}
+
+
+/* text align */
+
+/* body{
+    text-align: center;
+} */
+.align {
+    text-align: left;
+    text-align: initial;
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+    text-align: inherit;
+
+    /* text-align-last: right ; */
+}
+
+/* text decoration */
+.decoration {
+    text-decoration-color: red;
+    text-decoration-line: underline;
+    text-decoration-style: inherit;
+    text-decoration-style: initial;
+    text-decoration-style: solid;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: wavy;
+
+    text-decoration: black underline dotted;
+}
+
+/* text indent */
+.indent {
+    text-indent: 50px;
+}
+
+/* text justify */
+.justify {
+    text-justify: auto;
+}
+
+/* text overflow */
+.overflow {
+    border:1px solid;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow: clip;
+
+}
+
+/* text transform */
+.transform {
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: none;
+    text-transform: inherit;
+    text-transform: initial;
+
+}
+
+/* text shadow */
+.shadow {
+    text-shadow: 5px 5px 5px rgb(2, 14, 16) ;
+}
+
+/* letter Spacing */
+.lspacing {
+    letter-spacing: normal;
+    letter-spacing: initial;
+    letter-spacing: inherit;
+    letter-spacing: 2px;
+}
+
+/* line Height */
+.height {
+    line-height: normal;
+    line-height: initial;
+    line-height: inherit;
+    line-height: 200px;
+}
+
+/* direction */
+.direction {
+    direction: ltr;
+    direction: rtl;
+}
+
+/* word spacing */
+
+.wspacing {
+    word-spacing: 50px;
+}

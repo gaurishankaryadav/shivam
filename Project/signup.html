@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+
+<body>
+    <div class="conatiner">
+        <h2>login</h2>
+        <form action="">
+            <div class="group">
+                <!-- <label for="email"></label> -->
+                <input type="email" id="email" placeholder="email" required>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="group">
+                <!-- <label for="password"></label> -->
+                <input type="password" id="password" placeholder="password" maxlength="8" required>
+            </div>
+            <p><input type="checkbox">Remember
+                Me<a href="#">Forget password</a></p>
+            <input id="btn" type="button" value="login">
+            <p>Don't have a account?</p>
+        </form>
+    </div>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+           background-image: url(ball-63527_1280.webp);
+
+        }
+
+        .conatiner {
+            width: 400px;
+            height: 500px;
+            background-color: hwb(0 15% 24%);
+
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        h2 {
+            color: white;   
+            text-transform: uppercase;
+            padding: 30px 0;
+            font-size: 2em;
+        }
+
+        .group {
+            background-color: white;
+            width: 330px;
+            margin: 30px 0;
+        }
+
+        .group input {
+            width: 100%;
+            height: 40px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1.2em;
+            color: white;
+            padding: 0 30px 0 10px;
+
+
+        }
+
+        .group label {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            color: white;
+        }
+
+    
+        .group i {
+            position: absolute;
+            right: 50%;
+            transform: translateY(-50%);
+            color: white;
+            font-size: 1.2em;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            padding: 10px 0;
+        }
+
+        p>a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        p>a:hover {
+            text-decoration: underline;
+            font-style: italic;
+
+        }
+
+        #btn {
+            width: 100px;
+            height: 60px;
+            border-radius: 40px;
+            border: none;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: 0.5s;
+
+        }
+
+        #btn:hover {
+            background-color: black;
+            color: white;
+
+        }
+    </style>
+</body>
+
+</html>

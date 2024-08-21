@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container{
+            display: grid;
+         grid-template-areas: 
+         'h h h h h h'
+         'a a m m m m'
+         'a a m m m m'
+         'a a m m m m'
+         'a a s s s s '
+         'f f f f f f'
+         ;
+         gap: 10px;
+         height: 400px;
+         width: 600px;
+         background-color: black;
+         padding: 10px;
+            
+        }
+        .item1{grid-area: h;}
+        .item2{grid-area: a;}
+        .item3{grid-area: m;}
+        .item4{grid-area: s;}
+        .item5{grid-area: f;}
+        .container > div{
+            background-color: #a0a3a3;
+
+
+        }
+    </style>
+    <div class="container">
+        <div class="item1">Header</div>
+        <div class="item2">Aside</div>
+        <div class="item3">Main</div>
+        <div class="item4">Section</div>
+        <div class="item5">Footer</div>
+    </div>
+</body>
+</html>
